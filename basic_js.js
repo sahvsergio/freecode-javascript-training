@@ -40,6 +40,10 @@ console.log(rows[0]);
 rows[2]=10
 //display the updated value to the console
 console.log(rows)
+//accessing the last element and find out length of the array
+
+//.length is the
+rows[rows[rows.length-1]
 
 
 
