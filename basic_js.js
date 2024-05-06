@@ -32,5 +32,15 @@ console.log(count-2);
 let rows= [];
 // order of values 
 rows=['Naomi',"Quincy","CamperChan"];
+//accessing array elements by using numerical indexes
+console.log(rows[0]);
+//arrays are mutable, here is how you can mutate it 
+
+//update the 3rd value of an array
+rows[2]=10
+//display the updated value to the console
+console.log(rows)
+
+
 
 
