@@ -9,4 +9,10 @@ character= 'World';
 console.log(character);
 
 //camel case is used in Javascript for  variables with more than 1 word
-let secondCharacter;
+let secondCharacter;// the value withuot initialization is undefined
+console.log(secondCharacter);
+//reassinging value of the variable
+secondCharacter= 'Test';
+
+//assigning a previous variable to a variable
+secondCharacter=character
