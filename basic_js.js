@@ -42,8 +42,31 @@ rows[2]=10
 console.log(rows)
 //accessing the last element and find out length of the array
 
-//.length is the
-rows[rows[rows.length-1]
+//.length is the method for the toal 
+rows[rows.length-1]
+//push a value at the end of the array
+rows.push('freeCodeCamp');
+
+//remove the element at the end of the array and return that element
+let popped=rows.pop();
+console.log(popped);
+
+//what does the rows.push() return? .push() returns the new length of the array, after adding the value you give it.
+
+let pushed=rows.push();
+console.log(pushed);
+
+
+//working with constants
+
+//A const variable also cannot be uninitialized.this code would throw an error
+const firstName;
+
+const character = "Hello";
+const count = 8;
+const rows = [];
+
+
 
 
 
