@@ -35,6 +35,12 @@ for (const row of rows) {
 
 }
 //functions in javascript
-function padRow(){
-  
+function padRow(name){
+  const test='Testing';
+  return test;
+
 }
+
+const call = padRow('Sergio');
+console.log(call);
+console.log(test)
